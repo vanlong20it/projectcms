@@ -30,7 +30,6 @@ header {
 header .menu-item {
   display: inline-block;
   position: relative;
-  margin-right: 40px;
 }
 .site-navigation .menu-primary a {
   color: #000;
@@ -40,6 +39,7 @@ header .menu-item {
   text-transform: uppercase;
   position: relative;
   transition: all 0.5s;
+  padding:10px 20px;
 }
 .site-navigation .menu-primary a::before {
   position: absolute;
@@ -53,10 +53,7 @@ header .menu-item {
 .site-navigation ul{
   margin:0;
 }
-.site-navigation ul li.menu-item{
-  padding:10px 20px;
-}
-.site-navigation ul li.menu-item.active{
+.site-navigation ul li.menu-item.active a{
   border-bottom:2px solid #F7385C;
 }
 /* center header */
