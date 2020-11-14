@@ -1,0 +1,93 @@
+/* 
+Theme Name: My Theme
+Theme URI: shopsix
+Team name: Nhom 6
+Author: Long Nguyen
+Author URI: wordpress.org
+Description: First Project's Nguyen Long
+Tags: blog, ont-column, ...
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.1
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: test
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've
+learned with others.
+*/
+header {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.site-navigation .menu-primary ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header .menu-item {
+  display: inline-block;
+  position: relative;
+  margin-right: 40px;
+}
+.site-navigation .menu-primary a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 0.5s;
+}
+.site-navigation .menu-primary a::before {
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  height: 2px;
+  background-color: #000;
+  content: "";
+  transition: all 1s ease-out;
+}
+.site-navigation ul{
+  margin:0;
+}
+.site-navigation ul li.menu-item{
+  padding:10px 20px;
+}
+.site-navigation ul li.menu-item.active{
+  border-bottom:2px solid #F7385C;
+}
+/* center header */
+.heading-logo {
+  text-align: center;
+}
+header .logo a {
+  color: black;
+}
+header .logo a img {
+  height: 60px;
+  transition: opacity 0.5s;
+}
+
+/* right header */
+.header-icon {
+  text-align: right;
+}
+.header-icon .menu-item a {
+  color: #000;
+  text-decoration: none;
+}
+.header-icon .count-cart {
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 22px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
