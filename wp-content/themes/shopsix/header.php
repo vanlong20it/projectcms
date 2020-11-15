@@ -10,58 +10,59 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <div class="heading-logo">
-                <div class="logo">
-                    <a href="<?php bloginfo('/')?>">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/assets/images/logo-navigation.png' ?>" alt="#logo">
-                    </a>
-                </div>
-            </div>
+    <header class="site-header">
+        <div class="container-fluid header-container clearfix">
             <div class="row">
-                <nav class="site-navigation col-lg-6">
-                    <ul class="menu-primary">
-                        <li class="menu-item active">
-                            <a href="#home">Home</a>
+                <nav class="site-navigation col-xs-3 col-sm-3 col-md-3 col-lg-5">
+                    <span class="toggle-nav hidden-lg">
+                        <span class="icon-nav"></span>
+                    </span>
+                    <ul id="menu-primary-menu" class="nav-menu">
+                        <li class="menu-item current-menu">
+                            <a href="#nav-item">Home</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#category">Category</a>
+                            <a href="#nav-item">Shop</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#feature">Features</a>
+                            <a href="#nav-item">Features</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#page">Page</a>
+                            <a href="#nav-item">Pages</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#blog">Blog</a>
+                            <a href="#nav-item">Blog</a>
                         </li>
                     </ul>
                 </nav>
-
-                <div class="col-lg-6">
-                    <div class="header-icon">
-                        <ul class="list-func-ico">
-                            <li class="menu-item icon-search">
-                                <a href="#search">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="menu-item icon-user">
-                                <a href="#user">
-                                    <i class="fa fa-user" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="menu-item icon-car">
-                                <a href="#user">
-                                    <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
-                                    <span class="count-cart">0</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="site-branding col-xs-6 col-sn-5 col-md-6 col-lg-2">
+                    <a href="#home" class="logo">
+                        <span>Sh6p</span>
+                    </a>
+                    <h1 class="site-title"></h1>
+                    <p class="site-description"></p>
+                </div>
+                <div class="header-icon col-sx-3 col-sm-3 col-md-3 col-lg-5">
+                    <ul class="hidden-sm hidden-md hidden xs">
+                        <li class="menu-item menu-item-search">
+                            <a href="#">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="menu-item menu-item-account">
+                            <a href="#">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="menu-item menu-item-cart">
+                            <a href="#">
+                                <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                                <span class="count cart-counter">0</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </header>
+    
