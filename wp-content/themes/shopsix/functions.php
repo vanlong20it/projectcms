@@ -5,6 +5,7 @@ function svh_enqueue_styles()
 {
     wp_enqueue_style('bootstrap', TPL_DIR_URI . '/assets/vendors/bootstrap/css/bootstrap.min.css');
     wp_enqueue_style('fontawesome'.TPL_DIR_URI.'/assets/fontawesome/css/all.min.css');
+    wp_enqueue_style('footer', TPL_DIR_URI . '/assets/css/footer.css');
     wp_enqueue_style('core', TPL_DIR_URI . '/style.css');
 }
 add_action('wp_enqueue_scripts', 'svh_enqueue_styles');
