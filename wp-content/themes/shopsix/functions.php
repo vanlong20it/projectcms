@@ -8,6 +8,7 @@ function svh_enqueue_styles()
     wp_enqueue_style('splide', TPL_DIR_URI . '/assets/css/splide.min.css');
     // -----------
     wp_enqueue_style('header', TPL_DIR_URI . '/assets/css/header.css');
+    wp_enqueue_style('footer', TPL_DIR_URI . '/assets/css/footer.css');
     // ---------------
     wp_enqueue_style('core', TPL_DIR_URI . '/style.css');
 }
