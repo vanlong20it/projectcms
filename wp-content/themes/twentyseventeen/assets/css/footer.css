@@ -1,0 +1,116 @@
+/* Footer */
+.site-footer {
+  display: block;
+  margin: 0 40px;
+  border-top: 1px solid #f1f2f4;
+  font-family: "Poppins",sans-serif;
+}
+footer .footer-content {
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 37px;
+}
+footer .footer-content h3 {
+  color: #23232c;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 50px 0 30px;
+}
+footer .footer-content p {
+  margin-bottom: 1.5em;
+  margin: 0 0 10px;
+  color: #7c7c80;
+}
+.footer-content .contact {
+  margin: 40px auto 0 auto;
+  width: 900px;
+  max-width: 100%;
+}
+.footer-content .contact .email {
+  color: #23232c;
+  font-weight: 500;
+  width: 80%;
+  padding: 0 20px;
+  margin-right: 10px;
+  height: 50px;
+  border: 0;
+  border-bottom: 2px solid #e4e6eb;
+}
+.footer-content .contact .btn-submit {
+  height: 50px;
+  border: 0;
+  border-bottom: 2px solid #e4e6eb;
+  font-weight: 550;
+  background-color: #fff;
+  color: #23232c;
+}
+.footer-content .contact .form-input:focus{
+  outline: none;
+}
+.footer-content .contact .form-input:hover {
+  border-bottom: 2px solid #23232c;
+  transition: border .5s;
+}
+footer .footer-info {
+  border-top: 1px solid #f1f2f4;
+  font-weight: 500;
+  font-size: 12px;
+  padding-top: 33px;
+  padding-bottom: 32px;
+}
+footer .footer-info .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+footer .footer-info .row .info-copy {
+  float: left;
+}
+footer .footer-info .copyright {
+  color: #23232c;
+  display: inline-block;
+  margin-right: 20px;
+}
+footer .footer-info .footer-menu {
+  display: inline-block;
+}
+footer .footer-info .footer-menu li {
+  padding: 0 17px;
+  display: inline-block;
+}
+footer .footer-info .footer-menu li a {
+  color: #909097;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer .footer-info .footer-menu li a:hover {
+  transition: .5s;
+  color: #23232c;
+}
+footer .footer-info .footer-menu .menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer .footer-info .row .info-socials {
+  text-align: right;
+}
+footer .footer-info .row .info-socials .socials-menu {
+  display: inline-block;
+}
+footer .footer-info .row .info-socials .socials-menu .menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer .footer-info .row .info-socials .socials-menu li{
+    display: inline-block;
+    padding: 0 15px;
+}
+footer .footer-info .row .info-socials .socials-menu a{
+    color: #909097;
+}
+footer .footer-info .row .info-socials .socials-menu a:hover{
+    color: #1e1e23;
+    outline: 0;
+    text-decoration: none;
+}

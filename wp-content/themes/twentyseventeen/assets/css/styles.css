@@ -1,6 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 .site-branding {
 	padding: 10px;
 }
 .site-content {
 	padding-top: 0px;
+}
+.slide-show{
+    margin-bottom:20px;
 }
