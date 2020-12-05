@@ -427,7 +427,7 @@ function shopsix_scripts()
 	wp_style_add_data('shopsix-ie8', 'conditional', 'lt IE 9');
 
 	// Custom style	
-	wp_enqueue_style('bootstrap', get_theme_file_uri('/assets//css/bootstrap.min.css'));
+	wp_enqueue_style('bootstrap', get_theme_file_uri('/assets/css/bootstrap.min.css'));
 	wp_enqueue_style('fontawesome', get_theme_file_uri('/assets/fontawesome/css/all.min.css'));
 	wp_enqueue_style('splide', get_theme_file_uri('/assets/css/splide.min.css'));
 	wp_enqueue_style('wp-custom-style', get_theme_file_uri('/assets/css/styles.css'), array('shopsix-style'), '20190105');
