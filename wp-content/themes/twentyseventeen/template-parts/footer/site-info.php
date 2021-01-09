@@ -9,16 +9,20 @@
  */
 
 ?>
-<div class="site-info">
-	<?php
-	if ( function_exists( 'the_privacy_policy_link' ) ) {
-		the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
-	}
-	?>
-	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyseventeen' ) ); ?>" class="imprint">
-		<?php
-			/* translators: %s: WordPress */
-		printf( __( 'Proudly powered by %s', 'twentyseventeen' ), 'WordPress' );
-		?>
-	</a>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="content">
+				Địa chỉ cửa hàng: 53 Võ Văn Ngân, Thủ Đức, TP.HCM <br>
+				Phone: 0987654321 <br>
+				Email: shopsix@gmail.com
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="content">
+				Facebook: <a>facebook/shopsix</a> <br>
+				Instagram: <a>instagram/shopsix</a>
+			</div>
+		</div>
+	</div>
 </div><!-- .site-info -->
