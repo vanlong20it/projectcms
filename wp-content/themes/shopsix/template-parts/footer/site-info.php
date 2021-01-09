@@ -7,15 +7,8 @@
 
 ?>
 <div class="site-info">
-	<?php
-	if ( function_exists( 'the_privacy_policy_link' ) ) {
-		the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
-	}
-	?>
-	<a href="<?php echo esc_url( __( 'https://shopsix.org/', 'shopsix' ) ); ?>" class="imprint">
-		<?php
-			/* translators: %s: shopsix */
-		printf( __( 'Proudly powered by %s', 'shopsix' ), 'shopsix' );
-		?>
-	</a>
+	<div class="row">
+		<div class="col-lg-6">ádfffffffffffffff</div>
+		<div class="col-lg-6">ffffffffffffffffffff</div>
+	</div>
 </div><!-- .site-info -->
